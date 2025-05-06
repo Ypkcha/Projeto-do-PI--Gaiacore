@@ -1,9 +1,34 @@
-#beckend{
+/* "Div'sssss" */
+header{
     position: relative;
     background-color: green;
     font-family: Cambria;
     font-size: 32px;
     text-align: center;
+}
+
+section{
+    background: #F5F5F5;
+    text-align: center;
+    height: auto;
+}
+
+footer{
+    background: green;
+}
+
+#verde{
+    background-color: green;
+    border-radius: 25%;
+    width: 150px;
+    height: 50px;
+    margin-left: 40%;
+    position: relative;
+}
+
+article{
+    background-color: greenyellow;
+   
 }
 
 #esconde{
@@ -12,17 +37,19 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
+    background-color: #fff;
 }
+/* Image */
 #logo{
-    width: 150px;
-    border-radius: 100%;
-    border-color: black;
+    width: 135px;
+    height: 150px;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
-
+/* tabela */
 #a{
     border: 1px solid black;
     border-collapse: collapse;
@@ -38,4 +65,14 @@ table, tr, td{
     height: 80px;
 
     text-align: center;
+}
+/* texto */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* etc */
+
+#temp{
+    margin-top: 0%;
+    overflow: hidden;
 }
