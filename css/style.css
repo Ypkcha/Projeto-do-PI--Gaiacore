@@ -39,6 +39,83 @@ article{
     height: 100%;
     background-color: #fff;
 }
+@media only screen and (max-width:1020px){
+    .botoes{
+        margin-left: 35%;
+        background-color: #fff;
+        width: 20%;
+        height: 100%;
+    }   
+}
+@media only screen and (min-width:1020px) and (max-width:1920px){
+    .botoes{
+        margin-left: 43.5%;
+        background-color: #fff;
+        width: 11%;
+        height: 100%;
+    }   
+}
+.botaoreg{
+    background-color: #12B667 ;
+    width: 200px;
+    height:50px ;
+    border-radius: 20%;
+    position: relative;
+
+}
+.botaologin{
+    background-color: #12B667 ;
+    width: 200px;
+    height:50px ;
+    border-radius: 20%;
+    margin-top: 2%;
+    position: relative;
+}
+.botao{
+    background-color: #12B667 ;
+    width: 250px;
+    height:70px ;
+    border-radius: 20%;
+    margin-top: 5%;
+    position: relative;
+    text-align: center;
+    color: #fff
+}
+
+/* paleta de cores */
+.pltv{
+    background-color: #12b667;
+    width: 75px ;
+    height: 75px;
+    position: absolute;
+    overflow: hidden;
+}
+.pltc{
+    background-color: #5ABEAA;
+    width: 75px ;
+    height: 75px;
+    margin-left: 80px;
+    position: absolute;
+    overflow: hidden;
+
+}
+.pltp{
+    background-color: #000;
+    width: 75px ;
+    height: 75px;
+    margin-left: 160px;
+    position: absolute;
+    overflow: hidden;
+
+}
+.pltb{
+    background-color: #fff;
+    width: 75px ;
+    height: 75px;
+    margin-left: 240px;
+    position: absolute;
+    overflow: hidden;
+}
 /* Image */
 #logo{
     width: 135px;
@@ -48,6 +125,9 @@ article{
     margin-left: auto;
     margin-right: auto;
     position: relative;
+}
+.cari{
+    width: 100%;
 }
 /* tabela */
 #a{
@@ -69,6 +149,13 @@ table, tr, td{
 /* texto */
 body{
     font-family: Arial, Helvetica, sans-serif;
+}
+.textocor{
+    position: relative;
+    margin-top: 10%;
+}
+.central{
+    text-align: center;
 }
 /* etc */
 
