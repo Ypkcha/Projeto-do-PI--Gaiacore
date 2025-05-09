@@ -15,19 +15,15 @@ section{
 
 footer{
     background: green;
-    margin-top: auto;
-    
-}
-
-#verde{
-    background-color: green;
-    border-radius: 25%;
-    width: 150px;
-    height: 50px;
-    margin-left: 40%;
+    height: 06%;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     position: relative;
-}
 
+}
 #esconde{
     top: 0%;
     left: 0%;
@@ -47,15 +43,23 @@ footer{
     position: relative;
     background-color: green;
     font-family: Cambria;
-    font-size: 32px;
+    font-size: 54px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 100px;
+
 }
 .arruma{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: #000;
+    width: 70%;
+    left: 15%;
+    margin-top: 20%;
+    position: relative;
 }
+
 /* paleta de cores */
 .pltv{
     background-color: #6EC855;
@@ -112,11 +116,13 @@ footer{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
+    position: static;
 }
 .tf{
     height: 200px;
+    width: 500px;
     margin-top: 5%;
+    position: static;
 }
 .folha{
     width: 110px;
@@ -149,22 +155,81 @@ table, tr, td{
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-.textocor{
+
+.lado{
+    text-align: right;
     position: relative;
+    font-size: 32px;
+}
+.bot{
+    display: flex;
+    justify-content: space-around;
+    font-size: inherit;
+    width: 100%;
+    height: 50%;
+}
+/* responsividade */
+@media only screen and (max-width: 440px){
+    .arruma{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        left: 0%;
+        margin-left: 0%;
+        margin-top: 30%;
+    }
+    #logo{
+        width: 270px;
+        height: 300px;
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+    }
+    .tf{
+        height: 100px;
+        width: inherit;
+        margin-top: 0%;
+        position: static;
+    }
+    .lado{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        font-size: 25px;
+        margin-right: 0%;
+    }
+    .bot{
+        display: flex;
+        justify-content: space-around;
+        font-size: 30px;
+        width: 100%;
+        height: 50%;
+    }
+    .teto{
+        position: relative;
+        background-color: green;
+        font-family: Cambria;
+        font-size:xx-large;
+        height: 100px;
+        width: 100%;
+
+    }
+    #esconde{
+        top: 0%;
+        left: 0%;
+        position: absolute;
+        width: auto;
+        height: 100%;
+        background-color: #fff;
+    }
+}
+@media only screen and (max-width: 1060px){
 
 }
 .central{
     text-align: center;
-}
-.lado{
-    text-align: right;
-    position: relative;
-    font-size: 25px;
-}
-/* etc */
-
-#temp{
-    margin-top: 0%;
-    overflow: hidden;
-    height: 100%;
+    font-size: 32px;
 }
